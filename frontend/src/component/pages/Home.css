@@ -1,0 +1,77 @@
+.header-container {
+  margin-bottom: 100px;
+  background-color: rgb(2, 63, 2);
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem;
+  box-shadow: 1px 14px 24px -8px rgba(0,0,0,0.67);
+-webkit-box-shadow: 1px 14px 24px -8px rgba(0,0,0,0.67);
+-moz-box-shadow: 1px 14px 24px -8px rgba(0,0,0,0.67);
+position: relative;
+}
+
+.logo-header {
+  width: 70px;
+  height: 70px;
+}
+
+.header-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+.header-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+}
+
+.logo-avatar {
+  border-radius: 100%;
+  width: 50px;
+  height: 50px;
+  opacity: 70%;
+  cursor: pointer;
+}
+.logo-noti {
+  width: 20px;
+  cursor: pointer;
+}
+.header-search-icon {
+  width: 25px;
+  height: 25px;
+  position: absolute;
+  left: 10px;
+}
+.header-input-container {
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+.header-input {
+  border-radius: 5px;
+  outline: none;
+  height: 35px;
+  width: 40vh;
+}
+input[type="text"] {
+  text-indent: 40px;
+  opacity: 80%;
+}
+.logout{
+  position: absolute;
+  width: 200px;
+  right: -5%;
+  cursor: pointer;
+}
+.logout > li{
+  position: absolute;
+  font-size: 1em;
+  background-color: rgb(252, 252, 252);
+  padding: 0.5rem;
+  border-radius: 2px;
+  margin-top: 5px;
+}

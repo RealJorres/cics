@@ -1,0 +1,61 @@
+.Mpos-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  position: absolute;
+  top: 15%;
+  left: 77%;
+}
+.MposSearch-icon {
+  position: absolute;
+  left: 120px;
+}
+.Mpos-sort {
+  margin-right: 50px;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.Mpos-sort > img {
+  width: 13px;
+  height: 13px;
+}
+.Mpos-input {
+  display: flex;
+  align-items: center;
+}
+.Mpos-input > .Mpos-text {
+  outline: none;
+}
+.Mpos-tbl {
+  display: flex;
+  justify-content: start;
+}
+
+/** table **/
+.Mpos-tbl {
+  position: absolute;
+  top: 25%;
+  left: 29%;
+}
+table {
+  width: 109ch;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+table,
+tr,
+td {
+  align-items: justify;
+  text-align: justify;
+  padding: 12px;
+}
+th {
+  background-color: rgb(17, 77, 5);
+  font-weight: 400;
+  font-size: x-large;
+  padding-left: 5px;
+  color: aliceblue;
+}
+td {
+  border-collapse: collapse;
+}

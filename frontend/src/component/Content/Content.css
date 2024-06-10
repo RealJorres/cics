@@ -1,0 +1,159 @@
+/* .main-container {
+  padding: 0 1rem;
+  display: flex;
+  gap: 3rem;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-bottom: 10px;
+  padding: 2rem;
+}
+.content-posted-time{
+    opacity: 50%;
+    font-size: 0.8em;
+}
+.content-title{
+    font-size: 1.5em;
+}
+.content-paragraph{
+    margin-top: 30px;
+}
+.content-wrapper{
+    max-width: 50%;
+    margin-bottom: 70px;
+}
+.imgWrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+    position: relative;
+}
+.img1{
+    width: 200px;
+    height: 250px;
+    object-fit: cover;
+}
+.img2{
+    width: 200px;
+    height: 250px;
+    position: absolute;
+    top: 5%;
+    left: 45%;
+    object-fit: cover;
+}
+.img3{
+    width: 150px;
+    height: 200px;
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    object-fit: cover;
+} */
+
+.content-container {
+    margin: 20px auto; /* Centering */
+    padding: 20px;
+    width: 50%; /* Width of container */
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.content-card {
+    margin-bottom: 20px;
+}
+
+.content-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.content-header h2 {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.content-header .action-buttons button {
+    margin-left: 10px;
+}
+
+.content-body {
+    margin-top: 10px;
+}
+
+.content-body p {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.content-body .image-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.content-body .image-container img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.comments-section {
+    margin-top: 20px;
+}
+
+.comments-section h3 {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.comment {
+    background-color: #f9f9f9;
+    padding: 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.comment .comment-meta {
+    font-size: 12px;
+    color: #555;
+}
+
+.comment-form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+    font-size: 16px;
+}
+
+.comment-form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #19bb2f;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.comment-form button:hover {
+    background-color: green;
+}
+
+.modal-content {
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #fff
+}  
+
+.like-button{
+    width: 75px;
+    border: none;
+    background: rgb(91, 168, 3);
+    color: white;
+    outline: none;
+}

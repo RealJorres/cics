@@ -1,0 +1,50 @@
+.sideNavContainer {
+  background-color: #cae3df;
+  width: 332px;
+  border-radius: 16px;
+  margin: 35px 12px;
+  display: flex;
+  padding-bottom: 2rem;
+  flex-direction: column;
+}
+.sidetitle {
+  font-size: 1.2em;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  justify-content: space-evenly;
+}
+.ItemSideNav {
+  display: flex;
+  gap: 15rem;
+  flex-direction: column;
+  margin-top: 30px;
+}
+.itemLi {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+}
+.item-items {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 1rem;
+}
+.item-items:hover {
+  padding: 1.4rem;
+  border-radius: 6px;
+  cursor: pointer;
+  height: 30px;
+  width: 200px;
+  transition: 0.1s;
+}
+.item-items > li {
+  font-size: 0.9em;
+  opacity: 70%;
+}
+.sidetitle > .Annou {
+  width: 20px;
+  height: 20px;
+}

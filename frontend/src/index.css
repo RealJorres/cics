@@ -1,0 +1,18 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+li, a{
+  list-style: none;
+  text-decoration: none;
+  color: black;
+}
+a:hover{
+  color: green;
+  transition: 0.1s;
+  transform: scale(1.01);
+}
+hr{
+  opacity: 10%;
+}
